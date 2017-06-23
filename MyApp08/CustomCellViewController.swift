@@ -20,14 +20,15 @@ class CustomCellViewController: UIViewController,UITableViewDelegate,UITableView
     }
     
     
-
-    
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
-        let cell = tbVeiw.dequeueReusableCell(withIdentifier: "customcell")
-        cell?.textLabel?.text = mydata[indexPath.row]
-        let cell2 = cell as! CustomTableViewCell
-        cell2.labelText(data:mydata[indexPath.row])
-        return cell!
+        let cell = tbVeiw.dequeueReusableCell(withIdentifier: "customcell") as! CustomTableViewCell
+        cell.img.image = UIImage(named: "Apple.jpg")
+//        cell.imginput()
+        cell.label1.text = mydata[indexPath.row]
+        cell.label2.text = "123457"
+        cell.img.layer.cornerRadius = 10
+        cell.img.clipsToBounds = true
+        return cell
     }
 
 

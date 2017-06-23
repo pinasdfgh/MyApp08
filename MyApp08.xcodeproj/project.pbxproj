@@ -16,6 +16,11 @@
 		CE6108591EFB75CE00A185CA /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6108581EFB75CE00A185CA /* CustomTableViewCell.swift */; };
 		CE61085B1EFB77FF00A185CA /* Apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE61085A1EFB77FF00A185CA /* Apple.jpg */; };
 		CE6108631EFB93FA00A185CA /* MyApp08Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6108621EFB93FA00A185CA /* MyApp08Tests.swift */; };
+		CE73EC5E1EFCAF4100410015 /* Vc2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73EC5D1EFCAF4100410015 /* Vc2ViewController.swift */; };
+		CE73EC601EFCAF5400410015 /* Vc3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73EC5F1EFCAF5400410015 /* Vc3ViewController.swift */; };
+		CE73EC621EFCAF6200410015 /* Vc4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73EC611EFCAF6200410015 /* Vc4ViewController.swift */; };
+		CE73EC641EFCC44400410015 /* painterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73EC631EFCC44400410015 /* painterView.swift */; };
+		CE73EC661EFCF8C900410015 /* paintervc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73EC651EFCF8C900410015 /* paintervc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,11 @@
 		CE6108601EFB93FA00A185CA /* MyApp08Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyApp08Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6108621EFB93FA00A185CA /* MyApp08Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp08Tests.swift; sourceTree = "<group>"; };
 		CE6108641EFB93FA00A185CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE73EC5D1EFCAF4100410015 /* Vc2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vc2ViewController.swift; sourceTree = "<group>"; };
+		CE73EC5F1EFCAF5400410015 /* Vc3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vc3ViewController.swift; sourceTree = "<group>"; };
+		CE73EC611EFCAF6200410015 /* Vc4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vc4ViewController.swift; sourceTree = "<group>"; };
+		CE73EC631EFCC44400410015 /* painterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = painterView.swift; sourceTree = "<group>"; };
+		CE73EC651EFCF8C900410015 /* paintervc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = paintervc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,12 +96,17 @@
 				CE6108431EFB602100A185CA /* AppDelegate.swift */,
 				CE6108571EFB75A100A185CA /* imags */,
 				CE6108451EFB602100A185CA /* ViewController.swift */,
-				CE6108581EFB75CE00A185CA /* CustomTableViewCell.swift */,
 				CE6108471EFB602100A185CA /* Main.storyboard */,
-				CE6108551EFB711900A185CA /* CustomCellViewController.swift */,
 				CE61084A1EFB602100A185CA /* Assets.xcassets */,
 				CE61084C1EFB602100A185CA /* LaunchScreen.storyboard */,
 				CE61084F1EFB602100A185CA /* Info.plist */,
+				CE6108581EFB75CE00A185CA /* CustomTableViewCell.swift */,
+				CE6108551EFB711900A185CA /* CustomCellViewController.swift */,
+				CE73EC5D1EFCAF4100410015 /* Vc2ViewController.swift */,
+				CE73EC5F1EFCAF5400410015 /* Vc3ViewController.swift */,
+				CE73EC611EFCAF6200410015 /* Vc4ViewController.swift */,
+				CE73EC631EFCC44400410015 /* painterView.swift */,
+				CE73EC651EFCF8C900410015 /* paintervc.swift */,
 			);
 			path = MyApp08;
 			sourceTree = "<group>";
@@ -219,7 +234,12 @@
 			files = (
 				CE6108461EFB602100A185CA /* ViewController.swift in Sources */,
 				CE6108561EFB711900A185CA /* CustomCellViewController.swift in Sources */,
+				CE73EC661EFCF8C900410015 /* paintervc.swift in Sources */,
+				CE73EC641EFCC44400410015 /* painterView.swift in Sources */,
 				CE6108591EFB75CE00A185CA /* CustomTableViewCell.swift in Sources */,
+				CE73EC601EFCAF5400410015 /* Vc3ViewController.swift in Sources */,
+				CE73EC5E1EFCAF4100410015 /* Vc2ViewController.swift in Sources */,
+				CE73EC621EFCAF6200410015 /* Vc4ViewController.swift in Sources */,
 				CE6108441EFB602100A185CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +446,7 @@
 				CE6108541EFB602100A185CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE6108671EFB93FA00A185CA /* Build configuration list for PBXNativeTarget "MyApp08Tests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +455,7 @@
 				CE6108691EFB93FA00A185CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
