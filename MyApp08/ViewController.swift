@@ -19,7 +19,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     @IBOutlet weak var tbView: UITableView!
     
-    private let mydata = ["猜數字Ｖ1","猜數字Ｖ2","切換場景","自訂UIView","簽名板","自訂cell"]
+    private let mydata = ["猜數字Ｖ1","猜數字Ｖ2","切換場景","自訂UIView","簽名板","自訂cell","touch event"]
     
 //取得cell數量
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
@@ -62,6 +62,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             
         case 5:
             if let vc = storyboard?.instantiateViewController(withIdentifier: "CustomCellvc"){
+                show(vc ,sender:self)
+            }
+            break
+        case 6:
+            if let vc = storyboard?.instantiateViewController(withIdentifier: "touchVC"){
                 show(vc ,sender:self)
             }
             break

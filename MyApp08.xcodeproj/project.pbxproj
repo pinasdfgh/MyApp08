@@ -16,6 +16,9 @@
 		CE6108591EFB75CE00A185CA /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6108581EFB75CE00A185CA /* CustomTableViewCell.swift */; };
 		CE61085B1EFB77FF00A185CA /* Apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE61085A1EFB77FF00A185CA /* Apple.jpg */; };
 		CE6108631EFB93FA00A185CA /* MyApp08Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6108621EFB93FA00A185CA /* MyApp08Tests.swift */; };
+		CE65CCAE1F009CED0065A72F /* touchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65CCAD1F009CED0065A72F /* touchVC.swift */; };
+		CE65CCB01F009D880065A72F /* touchUIV.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65CCAF1F009D880065A72F /* touchUIV.swift */; };
+		CE65CCD21F00F0DC0065A72F /* D.png in Resources */ = {isa = PBXBuildFile; fileRef = CE65CCD11F00F0DC0065A72F /* D.png */; };
 		CE73EC5E1EFCAF4100410015 /* Vc2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73EC5D1EFCAF4100410015 /* Vc2ViewController.swift */; };
 		CE73EC601EFCAF5400410015 /* Vc3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73EC5F1EFCAF5400410015 /* Vc3ViewController.swift */; };
 		CE73EC621EFCAF6200410015 /* Vc4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73EC611EFCAF6200410015 /* Vc4ViewController.swift */; };
@@ -47,6 +50,9 @@
 		CE6108601EFB93FA00A185CA /* MyApp08Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyApp08Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6108621EFB93FA00A185CA /* MyApp08Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp08Tests.swift; sourceTree = "<group>"; };
 		CE6108641EFB93FA00A185CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE65CCAD1F009CED0065A72F /* touchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = touchVC.swift; sourceTree = "<group>"; };
+		CE65CCAF1F009D880065A72F /* touchUIV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = touchUIV.swift; sourceTree = "<group>"; };
+		CE65CCD11F00F0DC0065A72F /* D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = D.png; path = ../../../Downloads/D.png; sourceTree = "<group>"; };
 		CE73EC5D1EFCAF4100410015 /* Vc2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vc2ViewController.swift; sourceTree = "<group>"; };
 		CE73EC5F1EFCAF5400410015 /* Vc3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vc3ViewController.swift; sourceTree = "<group>"; };
 		CE73EC611EFCAF6200410015 /* Vc4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vc4ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +113,8 @@
 				CE73EC611EFCAF6200410015 /* Vc4ViewController.swift */,
 				CE73EC631EFCC44400410015 /* painterView.swift */,
 				CE73EC651EFCF8C900410015 /* paintervc.swift */,
+				CE65CCAD1F009CED0065A72F /* touchVC.swift */,
+				CE65CCAF1F009D880065A72F /* touchUIV.swift */,
 			);
 			path = MyApp08;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 		CE6108571EFB75A100A185CA /* imags */ = {
 			isa = PBXGroup;
 			children = (
+				CE65CCD11F00F0DC0065A72F /* D.png */,
 				CE61085A1EFB77FF00A185CA /* Apple.jpg */,
 			);
 			name = imags;
@@ -214,6 +223,7 @@
 				CE61084E1EFB602100A185CA /* LaunchScreen.storyboard in Resources */,
 				CE61084B1EFB602100A185CA /* Assets.xcassets in Resources */,
 				CE61085B1EFB77FF00A185CA /* Apple.jpg in Resources */,
+				CE65CCD21F00F0DC0065A72F /* D.png in Resources */,
 				CE6108491EFB602100A185CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +242,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE65CCAE1F009CED0065A72F /* touchVC.swift in Sources */,
+				CE65CCB01F009D880065A72F /* touchUIV.swift in Sources */,
 				CE6108461EFB602100A185CA /* ViewController.swift in Sources */,
 				CE6108561EFB711900A185CA /* CustomCellViewController.swift in Sources */,
 				CE73EC661EFCF8C900410015 /* paintervc.swift in Sources */,

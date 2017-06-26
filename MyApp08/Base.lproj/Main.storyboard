@@ -292,6 +292,49 @@
             </objects>
             <point key="canvasLocation" x="1718" y="896"/>
         </scene>
+        <!--TouchVC-->
+        <scene sceneID="jNB-mj-Vxy">
+            <objects>
+                <viewController storyboardIdentifier="touchVC" id="al0-tN-efF" customClass="touchVC" customModule="MyApp08" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SNm-4F-ImK"/>
+                        <viewControllerLayoutGuide type="bottom" id="U95-um-Z0R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bH7-pt-PX6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFC-AB-Wms">
+                                <rect key="frame" x="20" y="28" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="home"/>
+                                <connections>
+                                    <segue destination="uqv-B5-UUW" kind="unwind" unwindAction="backHereWithSegue:" id="FWB-VH-OpA"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SYt-fP-zWe" customClass="touchUIV" customModule="MyApp08" customModuleProvider="target">
+                                <rect key="frame" x="50" y="113" width="325" height="286"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="fGY-aL-6wJ" appends="YES" id="Nzf-GZ-tpd"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                    </view>
+                    <connections>
+                        <outlet property="myView" destination="SYt-fP-zWe" id="qz4-iz-iqF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8S4-vi-biq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="uqv-B5-UUW" userLabel="Exit" sceneMemberID="exit"/>
+                <gestureRecognizer id="fGY-aL-6wJ" customClass="UIScreenEdgePanGestureRecognizer"/>
+            </objects>
+            <point key="canvasLocation" x="2650.7246376811595" y="890.21739130434787"/>
+        </scene>
         <!--Vc3 View Controller-->
         <scene sceneID="Y8k-RU-SA1">
             <objects>
